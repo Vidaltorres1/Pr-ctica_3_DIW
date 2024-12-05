@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Videojuegos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <img src="Imágenes/logo.jpg" alt="Logo" class="logo">
+      <div>
+        <div class="buscador">
+          <input type="text" placeholder="Buscar...">
+          <span class="buscador-icono">🔍</span>
+        </div>
+        <div class="menu">
+          <button>PC</button>
+          <button>PS5</button>
+          <button>XBOX</button>
+          <button>SWITCH</button>
+        </div>
+      </div>
+      <div class="icons">
+        <span class="carrito">🛒</span>
+        <span class="usuario">👤</span>
+      </div>
+    </div>
+  </header>
+    <section class="juegos">
+      <h2>Populares</h2>
+      
+      <div  id="juegos-carousel" class="carousel slide d-block d-md-none" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="juego">
+              <img src="Imágenes/wukong.jpg" alt="Black Myth Wukong">
+              <p>Black Myth Wukong</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="juego">
+              <img src="Imágenes/final-fantasy.jpg" alt="Final Fantasy XV">
+              <p>Final Fantasy XV</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="juego">
+              <img src="Imágenes/7-days-to-die.jpg" alt="7 Days to Die">
+              <p>7 Days to Die</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="juego">
+              <img src="Imágenes/god-of-war.jpg" alt="God of War Ragnarok">
+              <p>God of War Ragnarok</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="juego">
+              <img src="Imágenes/fallout-76.jpg" alt="Fallout 76">
+              <p>Fallout 76</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="juego">
+              <img src="Imágenes/cyberpunk.jpg" alt="Cyberpunk 2077">
+              <p>Cyberpunk 2077</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#juegos-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#juegos-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    
+      <div class="div-juegos d-none d-md-block">
+        <h2>Populares</h2>
+      <div class="div-juegos">
+        <div class="juego"><img src="Imágenes/wukong.jpg" alt="Black Myth Wukong"><p>Black Myth Wukong</p></div>
+        <div class="juego"><img src="Imágenes/final-fantasy.jpg" alt="Final Fantasy XV"><p>Final Fantasy XV</p></div>
+        <div class="juego"><img src="Imágenes/7-days-to-die.jpg" alt="7 Days to Die"><p>7 Days to Die</p></div>
+      </div>
+      <div class="div-juegos">
+        <div class="juego"><img src="Imágenes/god-of-war.jpg" alt="God of War Ragnarok"><p>God of War Ragnarok</p></div>
+        <div class="juego"><img src="Imágenes/fallout-76.jpg" alt="Fallout 76"><p>Fallout 76</p></div>
+        <div class="juego"><img src="Imágenes/cyberpunk.jpg" alt="Cyberpunk 2077"><p>Cyberpunk 2077</p></div>
+      </div>
+    </section>
+    
